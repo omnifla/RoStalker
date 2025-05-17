@@ -30,7 +30,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/omnifla/rostalker.git
+git clone https://github.com/omnifla/RoStalker.git
 ```
 
 ### 2. Load the Extension
@@ -38,7 +38,7 @@ git clone https://github.com/omnifla/rostalker.git
 1. Open your browser and go to `chrome://extensions/`
 2. Enable **Developer Mode** (top right)
 3. Click **Load unpacked**
-4. Select the `rostalker` folder you just cloned
+4. Select the `RoStalker` folder you just cloned
 
 ✅ RoStalker will now appear in your browser.
 
@@ -46,7 +46,7 @@ git clone https://github.com/omnifla/rostalker.git
 
 ## 🖼️ Preview
 
-![RoStalker UI](screenshot.png)
+![RoStalker UI](images/screenshot.png)
 
 ---
 
@@ -64,7 +64,7 @@ RoStalker has been fully cleaned and reviewed. This version does **not**:
 
 ## 📘 How It Works
 
-1. You enter a **Roblox username** and **game ID**  
+1. You enter a **Roblox username**
 2. RoStalker fetches the user's avatar thumbnail from Roblox  
 3. It compares that thumbnail to players in the game’s public server list  
 4. If a match is found, the **server ID and player info** are shown
