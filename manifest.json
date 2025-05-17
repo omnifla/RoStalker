@@ -16,7 +16,8 @@
     "service_worker": "background.js"
   },
   "host_permissions": [
-    "https://*.roblox.com/games/"
+    "*://*.roblox.com/games/",
+    "*://*.roblox.com/games/*"
   ],
   "action": {
     "default_popup": "panel.html"
