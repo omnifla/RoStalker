@@ -14,14 +14,14 @@
 }
 
 .sbx-search:disabled {
-    opacity: 50%;
+    opacity: 0.5;
 }
 
 .sbx-input {
     position: absolute;
     width: 180px;
     transform: translate(40px, 14px);
-    box-sizing: 0;
+    box-sizing: border-box;
     outline: none !important;
     box-shadow: none !important;
     border: none !important;
@@ -44,9 +44,7 @@
     height: 7px;
     width: 0%;
     background-color: #0077ff;
-    transition: width 0.5s, background-color 0.5s;
-    -moz-transition: width 0.5s, background-color 0.5s;
-    -webkit-transition: width 0.5s, background-color 0.5s;
+    transition: width 0.5s, background-color 0.5s; /* Removed redundant prefixes */
 }
 
 .sbx-user {
@@ -67,24 +65,13 @@
     border: solid #00b06f !important;
 }
 
-#sbx-input::-webkit-input-placeholder {
-    /* WebKit, Blink, Edge */
+.sbx-input::placeholder {
+    /* Modern placeholder styling */
     color: grey;
     font-weight: 400 !important;
 }
 
-#sbx-input:-moz-placeholder {
-    /* Mozilla Firefox 4 to 18 */
-    color: gray;
-    font-weight: 400 !important;
-}
-
-.dark::-webkit-input-placeholder {
-    /* WebKit, Blink, Edge */
-    color: #757575 !important;
-}
-
-.dark:-moz-placeholder {
-    /* Mozilla Firefox 4 to 18 */
+.dark::placeholder {
+    /* Modern placeholder styling for dark mode */
     color: #757575 !important;
 }
