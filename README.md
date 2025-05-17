@@ -3,9 +3,9 @@
 **RoStalker** is a browser extension that helps you find and track Roblox players inside specific games by scanning public servers using the player's avatar thumbnail.
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Available%20on-Firefox-orange?style=for-the-badge&logo=firefox-browser&logoColor=white" alt="Available on Firefox"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Available%20on-Opera-red?style=for-the-badge&logo=opera&logoColor=white" alt="Available on Opera"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Available%20on-Edge-blue?style=for-the-badge&logo=microsoft-edge&logoColor=white" alt="Available on Edge"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Available%20on-Firefox-orange?logo=firefox-browser&logoColor=white" alt="Available on Firefox"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Available%20on-Opera-red?logo=opera&logoColor=white" alt="Available on Opera"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Available%20on-Edge-blue?logo=microsoft-edge&logoColor=white" alt="Available on Edge"></a>
 </p>
 
 ---
